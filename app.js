@@ -18,7 +18,7 @@ function verificandoVencedor(aposta) {
 const apostadores = {};
 adicionandoApostas();
 let programaOn = true;
-console.log(apostadores[apostadores]);
+
 while (programaOn == true) {
   const maisApostas = prompt("Tem mais apostadores? ").toLowerCase();
   if (maisApostas == "sim" || maisApostas == "s") {
